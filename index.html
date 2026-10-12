@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCP Bot - Privacy Policy & Terms of Service</title>
+    <style>
+        :root {
+            --bg-color: #0b0b0e;
+            --card-bg: #121218;
+            --accent-red: #8b0000;
+            --accent-red-hover: #a30000;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border-color: #1e1e2d;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(139, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #121218 0%, #1a0505 100%);
+            border-bottom: 2px solid var(--accent-red);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(139, 0, 0, 0.5);
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            background: #0e0e13;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-tab {
+            padding: 15px 30px;
+            cursor: pointer;
+            font-weight: bold;
+            color: var(--text-muted);
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .nav-tab.active {
+            color: #fff;
+            border-bottom-color: var(--accent-red);
+            background: rgba(139, 0, 0, 0.05);
+        }
+
+        .content-section {
+            padding: 40px;
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h3 {
+            color: #ff4d4d;
+            font-size: 1.1rem;
+            margin: 20px 0 10px 0;
+        }
+
+        p, ul {
+            margin-bottom: 15px;
+            color: var(--text-muted);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: rgba(139, 0, 0, 0.1);
+            border-left: 4px solid var(--accent-red);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            color: var(--text-main);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #09090c;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>BCP Bot (Black Night Pay)</h1>
+            <p>Official Privacy Policy & Terms of Service</p>
+        </header>
+
+        <div class="nav-tabs">
+            <div class="nav-tab active" onclick="switchTab('privacy')">Privacy Policy</div>
+            <div class="nav-tab" onclick="switchTab('terms')">Terms of Service</div>
+        </div>
+
+        <!-- Privacy Policy Section -->
+        <div id="privacy" class="content-section active">
+            <h2>Privacy Policy</h2>
+            <p>Last updated: October 2026</p>
+            
+            <p>Welcome to <strong>BCP (Black Night Pay)</strong>. We respect your privacy and are committed to protecting any data processed through our bot on our private Discord server.</p>
+
+            <h3>1. Information We Process</h3>
+            <p>The bot operates exclusively within a private server environment and processes limited data strictly required for its core functionality:</p>
+            <ul>
+                <li><strong>Discord User IDs & Mentions:</strong> Used solely to associate in-server banking balances, fines, and roleplay vehicle records with the correct user.</li>
+                <li><strong>Roleplay & Economy Data:</strong> In-server currency transactions, fine tracking, and vehicle registrations/insurance details.</li>
+                <li><strong>Simulation Logs:</strong> Tracking player violations within the Roleplay simulation.</li>
+            </ul>
+
+            <h3>2. Data Storage & Security</h3>
+            <div class="highlight-box">
+                <strong>No External Exploitation or Harvesting:</strong> We do not collect, store, or share any sensitive personal information externally. All simulated data and logs remain strictly within the secure boundaries of our private server environment. No data is sold, monetized, or exposed to third parties.
+            </div>
+
+            <h3>3. Data Retention</h3>
+            <p>Data associated with the bot's economy and roleplay systems is retained only as long as necessary to maintain the server's simulation progression, or until requested for removal by server administration.</p>
+        </div>
+
+        <!-- Terms of Service Section -->
+        <div id="terms" class="content-section">
+            <h2>Terms of Service</h2>
+            <p>Last updated: October 2026</p>
+
+            <p>By interacting with <strong>BCP Bot</strong> on our private server, you agree to comply with and be bound by the following terms and conditions.</p>
+
+            <h3>1. About the Bot</h3>
+            <p>BCP is a custom general banking and fine-management bot. Its features include:</p>
+            <ul>
+                <li><strong>Banking & Economy:</strong> Managing in-server currency transfers, paying roleplay fines, purchasing server buyable ranks, and assisting other members with their fines.</li>
+                <li><strong>Roleplay Management:</strong> Tracking player violations within the simulation, registering custom roleplay vehicles, and handling vehicle insurance.</li>
+            </ul>
+
+            <h3>2. In-Server Currency Guidelines</h3>
+            <p>The currency utilized by the bot is strictly an <strong>in-game / in-server virtual currency</strong>. It holds no real-world monetary value, cannot be exchanged for real currency, and is used solely for roleplay simulation mechanics, purchasing server ranks, and fine settlements.</p>
+
+            <h3>3. Acceptable Use</h3>
+            <p>Users must not attempt to exploit, bug, or abuse the bot's commands, economy balance systems, or record logs. Any manipulation of the bot's features will result in administrative action within the server.</p>
+        </div>
+
+        <footer>
+            &copy; 2026 BCP Bot / Black Night Server. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            document.getElementById(tabId).classList.add('active');
+            event.currentTarget.classList.add.apply(event.currentTarget.classList, ['active']);
+        }
+    </script>
+</body>
+</html>
